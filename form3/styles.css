@@ -1,0 +1,104 @@
+/*     */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+    padding: 20px;
+}
+
+.container {
+    background-color: snow;
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgb(203, 135, 180);
+    max-width: 400px;
+    width: 100%;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+
+}
+
+form h2 {
+    font-size: 1.5rem;
+    color: rgb(205, 132, 193);
+    text-align: center;
+}
+
+.campo {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+input {
+    width: 80%;
+    padding: .5rem;
+}
+
+label {
+    width: 30%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+button {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(203, 133, 200);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: snow;
+}
+
+button:hover {
+    background-color: rgb(113, 53, 92);
+}
+
+.custom-select {
+    width: 80%;
+    padding: 0.6rem;
+    background-color: #ffff;
+    border-radius: 5px;
+    border: 1px solid #8b8989;
+}
+
+.custom-radio{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.radio-group, .check-group{
+    display: flex;
+    gap: .5rem;
+}
+
+.radio-container, .check-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.check-group input{
+    width: 20px;
+}
+textarea{
+    width: 100%;
+}
+.campo2 label {
+    width: 50%;
+}
